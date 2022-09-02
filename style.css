@@ -21,10 +21,17 @@
   .card-img-top {
     height: 35vh;
   }
+  #map {
+    height: 50vh;
+  }
 }
 
 @media (max-width: 600px) {
-  .card-img-top {
+  .blog-img-top {
+    height: 25vh;
+  }
+  .card-img-top,
+  #map {
     height: 50vh;
   }
 }
